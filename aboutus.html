@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link href='./css/aboutus.css' rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+	<style>
+	#contact .card:hover i,#contact .card:hover h4{
+		color: #87d37c;
+	}
+	#btn-back-to-top {
+	  position: fixed;
+	  bottom: 20px;
+	  right: 20px;
+	  display: none;
+	}
+	</style>
+    <title>About us</title>
+  </head>
+  <body>
+	<div>
+    <!-- Header Start -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" height="60" width="60" alt="Logo"></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+		  <li class="nav-item active">
+			<a class="nav-link" href="./index.html"><i class="fa fa-arrow-left"></i>&nbsp;Back<span class="sr-only">(current)</span></a>
+		  </li>
+		 </ul>
+	  </div>
+	</nav>
+	<div style="background: url('./images/pngtree-cute-hand-drawn-style-mathematics-education-pink-background-image_337362.jpg');filter=blur(10px)" class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+          <h3 class="display-6 text-center font-weight-normal text-white">Welcome to,</h3>
+          <h1 class="display-4 text-center font-weight-bold text-white">Mathematics Solution World</h1>
+          <p class="lead text-center font-weight-normal text-white">A platform to find solutions...</p>
+          
+        </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+      </div>
+	<!-- Header End -->
+    
+	<!-- Main Body Start-->
+	<section class="about-us py-5 " id="about-us">
+		<div class="container mt-5">
+		<div class="row">
+			<div class="">
+				<h2>Know More About Us</h2>
+				<hr>
+				<p>
+				I, <b>Achinta Roy</b>, have completed my graduation from Siliguri College (University of North Bengal) in 2021<br><br>
+				After qualifying IIT JAM-2021, I took admission at <b>INDIAN INSTITUTE OF TECHNOLOGY KANPUR (IIT-K)</b>. In this premier institution, It is noticed, students from different parts of this enormous country have some difficulties to solve mathematical problems & the solution books are not easily available, & many websites charges high fees for such solutions. 
+				To overcome this problem, I, Achinta Roy, decided to help  my country people as much as I do, who want to know mathematics from the basis. 
+				<br><br>
+				For this reason, I & <b>Arup</b> have started this program  to contribute something into the Mathematics community of India.
+				<br><br>
+				I hope our contribution is beneficial for entire nation to understand mathematics, any student from anywhere, can get a solution in just one single click. 
+				<br><br>
+				I am dedicating this website to MTTS TRUST & Prof. S Kumaresan sir. & I can say proudly, <b>I am improving myself</b> .
+				<br><br>
+				So, let's enrich our mathematical community together.
+				</p>
+			</div>
+		</div>
+		</div>
+	</section>
+    <!-- Main Body End-->
+
+	<!-- Top Button-->
+		<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top" style="opacity:0.3" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.3">
+			<i class="fa fa-arrow-up"></i>
+		</button>
+		<script>
+			//Get the button
+			let mybutton = document.getElementById("btn-back-to-top");
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function () {
+			  scrollFunction();
+			};
+
+			function scrollFunction() {
+			  if (
+				document.body.scrollTop > 20 ||
+				document.documentElement.scrollTop > 20
+			  ) {
+				mybutton.style.display = "block";
+			  } else {
+				mybutton.style.display = "none";
+			  }
+			}
+			// When the user clicks on the button, scroll to the top of the document
+			mybutton.addEventListener("click", backToTop);
+
+			function backToTop() {
+			  document.body.scrollTop = 0;
+			  document.documentElement.scrollTop = 0;
+			}
+		</script>
+	<!--Top button end-->
+	</div>
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
